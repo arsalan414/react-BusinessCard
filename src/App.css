@@ -1,0 +1,145 @@
+body {
+  width: 700px;
+  background: #23252c;
+  color: aliceblue;
+  margin: 53px auto;
+  font-family: "Inter";
+}
+img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+.main {
+  margin: 0 auto;
+  width: 317px;
+  background: #1a1b21;
+}
+.main h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+}
+
+.frontend {
+  margin: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+}
+.websiteLink {
+  margin: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  /* identical to box height, or 15px */
+  text-align: center;
+
+  color: #f5f5f5;
+}
+.buttons {
+  display: flex;
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+.email,
+.LinkedIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+
+  width: 115px;
+  height: 28px;
+  color: #1a1b21;
+
+  /* white */
+  background: #ffffff;
+  margin: 0px 10px;
+
+  /* gray/300 */
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 247px;
+  padding-bottom: 10px;
+}
+.content h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.email p,
+.LinkedIn p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* identical to box height, or 114% */
+
+  /* gray/700 */
+  color: #374151;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+.content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  /* or 15px */
+
+  color: #dcdcdc;
+}
+
+
+.LinkedIn{
+    background: #5093E2;
+    border: 1px solid #000000;
+}
+.LinkedIn p{
+    color: #FFFFFF;
+}
+
+.footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
