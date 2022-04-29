@@ -1,17 +1,14 @@
 import React from 'react'
-import twitter from './images/t.png'
-import fb from './images/fb.png'
-import ig from './images/ig.png'
-import gh from './images/gh.png'
-import li from './images/li.png'
+import { BsFacebook, BsLinkedin, BsTwitter, BsGithub, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <div className='footer'>
-        <img src={twitter} />
-        <img src={fb} />
-        <img src={ig} />
-        <img src={gh} />
+        <BsFacebook className='reactIcons'/>
+        <BsLinkedin className='reactIcons'/>
+        <BsTwitter className='reactIcons'/>
+        <BsInstagram className='reactIcons'/>
+        <BsGithub className='reactIcons'/>
     </div>
   )
 }

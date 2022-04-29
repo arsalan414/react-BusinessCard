@@ -1,18 +1,21 @@
 import React from 'react'
-import image from './images/Rectangle 90.png'
+import image from './images/arsalanprofile.jpg'
+import { BsEnvelope, BsLinkedin } from "react-icons/bs";
 
 const Main = () => {
   return (
     <div className='main'>
         <img src={image} />
-        <h1>Laura Smith</h1>
+        <h1>M. Arsalan</h1>
         <p className='frontend'>Frontend Developer</p>
-        <p className='websiteLink'><small>laurasmith.website</small></p>
+        <p className='websiteLink'>MArsalan.website</p>
         <div className='buttons'>
             <div className='email'>
+                <BsEnvelope />
                 <p>Email</p>
             </div>
             <div className='LinkedIn'>
+                <BsLinkedin style={{color: 'white', borderRadius: '2px'}} />
                 <p>LinkedIn</p>
             </div>
         </div>
